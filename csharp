@@ -1,0 +1,7 @@
+resource "aws_security_group" "group_name" {
+  name_prefix = var.group_name
+}
+
+
+terraform init
+terraform apply
